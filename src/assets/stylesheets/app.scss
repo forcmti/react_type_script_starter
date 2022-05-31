@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-:root
-{
+:root {
     --color-example: #fff;
+    --main-color: #000;
 }
 
-html,body 
-{
+html,
+body {
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-grow: 1;
@@ -15,15 +14,15 @@ html,body
     min-height: 100vh;
     font-size: 16px;
     text-align: center;
-    color: var(--color-example);
+    color: var(--main-color);
     margin: 0;
 }
 
-#app 
-{
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+#app {
+    // background-color: #4158D0;
+    // background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     color: var(--color-example);
+    color: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,13 +30,9 @@ html,body
     font-size: 2rem;
 }
 
-
-.features 
-{
+.features {
     font-size: 1.7rem;
-
-    & div 
-    {
+    & div {
         padding: 0.5rem;
     }
 }

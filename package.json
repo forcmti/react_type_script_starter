@@ -13,7 +13,7 @@
         "webpack",
         "scss"
     ],
-    "author": "Grant Bartlett",
+    "author": "ekafe",
     "license": "MIT",
     "dependencies": {
         "react": "^17.0.2",
